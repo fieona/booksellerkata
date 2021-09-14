@@ -24,7 +24,7 @@ For the lists L and M of example you have to return the string (in Haskell/Cloju
 
 where A, B, C, W are the categories, 20 is the sum of the unique book of category A, 114 the sum corresponding to "BKWRK" and "BTSQZ", 50 corresponding to "CDXEF" and 0 to category 'W' since there are no code beginning with W.
 
-If L or M are empty return string is "" (Clojure and Racket should return an empty array/list instead).
+If L or M are empty return string is ""
 Note:
 
 In the result codes and their values are in the same order as in M.
