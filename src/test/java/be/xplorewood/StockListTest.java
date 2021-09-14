@@ -12,4 +12,12 @@ class StockListTest {
 
         assertThat(StockList.stockSummary(art, cd)).isEqualTo("(A : 200) - (B : 1140)");
     }
+
+    @Test
+    void test2() {
+        String[] art = new String[]{"ABAR 200", "CDXE 500", "BKWR 250", "BTSQ 890", "DRTY 600"};
+        String[] cd = new String[]{"A", "B", "F"};
+
+        assertThat(StockList.stockSummary(art, cd)).isEqualTo("(A : 200) - (B : 1140) - (F : 0)");
+    }
 }
